@@ -49,7 +49,6 @@ This application is a command-line tool designed to compute SHA-256 hashes of fi
 
 ### Single File Mode
 
-```bash
 hash_calc.exe "C:\path\to\file.txt"
 
 Computes the SHA-256 hash of file.txt.
@@ -59,7 +58,6 @@ Ideal for quick checks or verification of a single file’s integrity.
 
 ### Directory Mode
 
-```bash
 hash_calc.exe "C:\path\to\directory" "output.csv"
 
 Recursively enumerates directory and computes the SHA-256 hash for every file found.
@@ -77,7 +75,6 @@ Basic knowledge of the command-line environment to run and provide arguments.
 ### Example
 
 For a directory:
-```bash
 hash_calc.exe "C:\path\to\directory" "output.csv"
 
 The tool scans all files under C:\MyData.
@@ -85,7 +82,6 @@ Writes their SHA-256 hashes to hashes.csv.
 Shows progress while it runs.
 
 For a single file:
-```bash
 hash_calc.exe "C:\MyData\example.bin"
 
 Computes the SHA-256 hash of example.bin.
